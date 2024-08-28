@@ -1,38 +1,84 @@
 .App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+.bioWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  margin-top: 50px;
+  color: white;
+  padding: 0 20px;
+}
+
+.categories {
+  margin-top: 30px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MuiBox-root:focus-visible {
+  outline: none;
+}
+
+.category_text {
+  color: white;
+  background-color: #6a6a6a;
+  margin-bottom: 20px !important;
+  font-size: 10px;
+  border-radius: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal_image {
+  outline: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+  background: #6a6a6a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contacts {
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contacts_text {
   color: white;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.contacts_info {
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contacts_line {
+  display: flex;
+  flex-direction: row;
+  width: 230px;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-left: 20px;
 }

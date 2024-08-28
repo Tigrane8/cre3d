@@ -1,0 +1,23 @@
+.category {
+  cursor: pointer;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  background: #6a6a6a;
+}
+
+.category_image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.category_title {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
